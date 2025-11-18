@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+/* -------------------------
+   RESET BÁSICO
+--------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* -------------------------
+   HEADER
+--------------------------*/
+header {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e4e4e4;
+}
+
+header img {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #005da4;
+}
+
+header p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* -------------------------
+   NAVBAR
+--------------------------*/
+.nav {
+    margin-top: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #6ac8f0;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #0098ff;
+}
+
+/* -------------------------
+   CONTENIDO PRINCIPAL
+--------------------------*/
+main {
+    padding: 30px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+main h1, main h2, main h3 {
+    color: #57efaa;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* -------------------------
+   DESTINOS - CARDS
+--------------------------*/
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.container img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.boton-Detalle {
+    display: inline-block;
+    text-decoration: none;
+    background: #005da4;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.boton-Detalle:hover {
+    background: #007bd1;
+}
+
+/* -------------------------
+   PAQUETES - CUADROS
+--------------------------*/
+.paquete {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.paq {
+    background: #ffffff;
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.paq h3 {
+    color: #003e73;
+}
+
+/* -------------------------
+   FOOTER
+--------------------------*/
+footer {
+    background-color: #003e73;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+.Foot-p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* -------------------------
+   RESPONSIVE DESIGN
+--------------------------*/
+@media (max-width: 768px) {
+
+    .nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .paq {
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    .paq {
+        width: 80%;
+    }
+}
