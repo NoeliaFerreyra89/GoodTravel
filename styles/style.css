@@ -70,7 +70,7 @@ main {
     margin: auto;
 }
 
-main h1, main h2, main h3 {
+main h1, main h2, h3{
     color: #409f74;
     margin-bottom: 15px;
 }
