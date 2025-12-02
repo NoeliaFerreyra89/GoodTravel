@@ -1,0 +1,14 @@
+// UTILITIES
+@use "partials/utilities/variables";
+@use "partials/utilities/mixins";
+
+// BASE
+@use "partials/base/reset";
+@use "partials/base/global";
+
+// COMPONENTS
+@use "partials/components/header";
+@use "partials/components/nav";
+@use "partials/components/cards";
+@use "partials/components/paquetes";
+@use "partials/components/footer";

@@ -1,0 +1,22 @@
+@use "../utilities/variables";
+
+header {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #e4e4e4;
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+    color: variables.$color-primary;
+  }
+
+  p {
+    font-size: 14px;
+    color: #080808;
+  }
+}
