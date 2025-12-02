@@ -1,0 +1,52 @@
+@use "../utilities/variables";
+
+.section-contacto {
+  padding: variables.$spacing-lg variables.$spacing-md;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+
+  h2 {
+    color: variables.$color-primary;
+    margin-bottom: variables.$spacing-md;
+    font-weight: 700;
+  }
+
+  .lead {
+    font-size: 17px;
+    margin-bottom: variables.$spacing-md;
+    color: variables.$color-dark;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .btn-primary {
+    background-color: variables.$color-light;
+    border: 2px solid variables.$color-primary;
+    color: variables.$color-primary;
+
+    &:hover {
+      background-color: variables.$color-primary;
+      color: variables.$color-light;
+    }
+  }
+
+  .btn-outline-primary {
+    border: 2px solid variables.$color-primary;
+    color: variables.$color-primary;
+
+    &:hover {
+      background-color: variables.$color-primary;
+      color: variables.$color-light;
+    }
+  }
+}
