@@ -3,35 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Turismo, viajes, paquetes, vacaciones, aereos, hoteles">
+    <meta name="description" content="Tus proximas vacaciones estan acá">
     <link rel="stylesheet" href="styles/style.css">
     <title>Good Travel Agency | Pasión por el turismo</title>
 </head>
 
 <body>
-    <header>
-        <div style="display: flex; justify-content: center; align-items: center">
-        <img src="./assets/Logo Good.png" alt="Logo Good Travel" width="450">
-        </div>
-        <h1>Good Travel Agency</h1>
-        <p>Pasión por el turismo</p>
-       
 
-        <nav class="menu-nav">
-            <a href="index.html">Inicio</a>
-            <a href="./pages/destinos.html">Destinos</a>
-            <a href="./pages/paquetes.html">Paquetes</a>
-            <a href="./pages/nosotros.html">Nosotros</a>
-            <a href="./pages/contacto.html">Contacto</a>
-        </nav>
-    </header>
+<header class="header">
+    <div class="logo-container">
+        <img src="./assets/Logo Good.png" alt="Logo Good Travel">
+    </div>
 
-    <main>
-        <h2>Bienvenidos</h2>
-        <p>Descubrí un mundo de experiencias únicas con Good Travel.</p>
-    </main>
+    <h1>Good Travel Agency</h1>
+    <p>Pasión por el turismo</p>
 
-    <footer>
-        <p class="Foot-p">GOOD TRAVEL AGENCY | Legajo 19649</p>
-    </footer>
+    <nav class="menu-nav">
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <div class="menu-links">
+        <a href="index.html">Inicio</a>
+        <a href="./pages/destinos.html">Destinos</a>
+        <a href="./pages/paquetes.html">Paquetes</a>
+        <a href="./pages/nosotros.html">Nosotros</a>
+        <a href="./pages/contacto.html">Contacto</a>
+    </div>
+
+</nav>
+</header>
+
+<main class="home">
+
+  <section class="hero">
+    <h2>Tu próximo viaje empieza acá</h2>
+    <p>Asesoramiento personalizado, destinos increíbles y experiencias a tu medida.</p>
+    <a href="./pages/paquetes.html" class="btn-primary">Ver paquetes</a>
+  </section>
+
+  <section class="home-services">
+    <h3>Nuestros servicios</h3>
+
+    <div class="services-grid">
+      <article>
+        <h4>✈️ Aéreos</h4>
+        <p>Vuelos nacionales e internacionales al mejor precio.</p>
+      </article>
+
+      <article>
+        <h4>🏨 Alojamiento</h4>
+        <p>Hoteles seleccionados según tu estilo de viaje.</p>
+      </article>
+
+      <article>
+        <h4>🚌 Excursiones</h4>
+        <p>Actividades y tours para vivir cada destino.</p>
+      </article>
+
+      <article>
+        <h4>🛡 Seguro de viaje</h4>
+        <p>Viajá tranquilo con cobertura completa.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-destinos">
+    <h3>Destinos destacados</h3>
+
+    <div class="destinos-grid">
+      <div class="destino">Europa</div>
+      <div class="destino">Caribe</div>
+      <div class="destino">Asia</div>
+    </div>
+  </section>
+
+  <section class="home-cta">
+    <h3>¿Listo para viajar?</h3>
+    <p>Contactanos y armamos tu viaje ideal.</p>
+    <a href="./pages/contacto.html" class="btn-secondary">Contactanos</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+    <p>GOOD TRAVEL AGENCY | Legajo 19649</p>
+</footer>
+
 </body>
 </html>
