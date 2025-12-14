@@ -1,25 +1,23 @@
 @use "../utilities/variables" as *;
 @use "sass:color";
-
 header {
+  width: 100%;
+  padding: 1rem;
   text-align: center;
-  padding: 20px 10px;
-  background-color: $color-light;
-  border-bottom: 2px solid color.adjust($color-dark, $lightness: 60%);
 
   img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    max-width: 140px;
+    height: auto;
+    margin: 0 auto 0.5rem;
   }
 
   h1 {
-    font-size: 28px;
-    color: $color-primary;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
   }
 
   p {
-    font-size: 14px;
-    color: $color-dark;
+    font-size: 0.85rem;
+    margin-bottom: 0.8rem;
   }
 }
